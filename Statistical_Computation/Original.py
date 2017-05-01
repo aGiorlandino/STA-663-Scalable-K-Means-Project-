@@ -127,3 +127,6 @@ def weighted_clusters(weights, X,k):
     
 def check_module():
     print('This is Statistical Computation Project')
+    
+def asdf():
+    print('asdfs')
