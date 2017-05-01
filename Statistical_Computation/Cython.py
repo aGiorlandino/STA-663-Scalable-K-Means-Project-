@@ -9,10 +9,6 @@ import pandas as pd
 import time
 from __future__ import division
 
-
-%load_ext cython
-
-%%cython
 import cython
 import numpy as np
 from libc.math cimport sqrt, pow
