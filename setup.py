@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='Statistical_Computation',
-    version='1.2',
+    version='1.3',
     packages=find_packages(exclude=['tests*']),
     license='MIT',
     description='Implementation of scalable k-means++',
