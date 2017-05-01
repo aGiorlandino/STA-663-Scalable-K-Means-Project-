@@ -124,3 +124,6 @@ def weighted_clusters(weights, X,k):
 
     #return those weights as the chosen centers
     return weighted_clusters(weights, C,k)     
+    
+def check_module():
+    print('This is Statistical Computation Project')
