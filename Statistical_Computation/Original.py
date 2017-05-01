@@ -79,7 +79,7 @@ def weighted_clusters(weights, X,k):
     
     
     
-    def scalable_k_means_pp(X,k,ell):
+def scalable_k_means_pp(X,k,ell):
     ''' 
         Function to initialize centers for the k-means|| algorithm
         Input: X, an array of data. k, the number of clusters
