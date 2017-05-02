@@ -1,3 +1,4 @@
+from __future__ import division
 import numpy as np
 import scipy.linalg as la
 from numpy.testing import assert_almost_equal
@@ -7,7 +8,6 @@ from scipy.cluster.vq import kmeans
 import random
 import pandas as pd
 import time
-from __future__ import division
 
 
 def distance(x,Y):
@@ -124,9 +124,3 @@ def scalable_k_means_pp(X,k,ell):
 
     #return those weights as the chosen centers
     return weighted_clusters(weights, C,k)     
-    
-def check_module():
-    print('This is Statistical Computation Project')
-    
-def asdf():
-    print('asdfs')

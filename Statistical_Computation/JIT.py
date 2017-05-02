@@ -1,3 +1,4 @@
+from __future__ import division
 import numpy as np
 import scipy.linalg as la
 from numpy.testing import assert_almost_equal
@@ -7,7 +8,6 @@ from scipy.cluster.vq import kmeans
 import random
 import pandas as pd
 import time
-from __future__ import division
 
 @jit
 def jit_distance(x,Y):
