@@ -11,6 +11,6 @@ Team members: Susan Cherry and Arpita Mandan
 
 This is our final project for STA 663: Statistical Computation. We implemented the algorithm presented in “Scalable K-means++”. The code includes versions optimized with JIT and Cython and includes a parallel version. 
 
-We also created an easily instable package for our functions. Examples and test code for the package are provided.
+We also created an easily instable package for our functions. Examples and test code for the package are provided. Install the package by using the command "pip install Statistical_Computation". See the "Package_Examples" notebook for examples of how to use the functions. 
 
 
